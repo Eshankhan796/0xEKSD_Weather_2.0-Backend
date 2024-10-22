@@ -8,7 +8,7 @@ const path = require("path");
 
 // Constants
 const app = express();
-const PORT = process.env.PORT || 6464;
+const PORT = process.env.PORT;
 const connectionString = process.env.DATABASE_URL;
 const pool = new Pool({
 	connectionString,
